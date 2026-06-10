@@ -1,0 +1,94 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.7 168088  7788 ?        Ss   06:26   0:05 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    06:26   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   06:26   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   06:26   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   06:26   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   06:26   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   06:26   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   06:26   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    06:26   0:00 [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    06:26   0:00 [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    06:26   0:00 [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    06:26   0:00 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    06:26   0:00 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    06:26   0:00 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    06:26   0:00 [cpuhp/0]
+root          19  0.0  0.0      0     0 ?        S    06:26   0:00 [cpuhp/1]
+root          20  0.0  0.0      0     0 ?        S    06:26   0:01 [migration/1]
+root          21  0.0  0.0      0     0 ?        S    06:26   0:00 [ksoftirqd/1]
+root          23  0.0  0.0      0     0 ?        I<   06:26   0:00 [kworker/1:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    06:26   0:00 [kdevtmpfs]
+root          27  0.0  0.0      0     0 ?        I<   06:26   0:00 [inet_frag_wq]
+root          28  0.0  0.0      0     0 ?        S    06:26   0:00 [kauditd]
+root          29  0.0  0.0      0     0 ?        S    06:26   0:00 [khungtaskd]
+root          30  0.0  0.0      0     0 ?        S    06:26   0:00 [oom_reaper]
+root          32  0.0  0.0      0     0 ?        I<   06:26   0:00 [writeback]
+root          33  0.0  0.0      0     0 ?        S    06:26   0:00 [kcompactd0]
+root          34  0.0  0.0      0     0 ?        SN   06:26   0:00 [ksmd]
+root          35  0.0  0.0      0     0 ?        SN   06:26   0:00 [khugepaged]
+root          36  0.0  0.0      0     0 ?        I<   06:26   0:00 [kintegrityd]
+root          37  0.0  0.0      0     0 ?        I<   06:26   0:00 [kblockd]
+root          38  0.0  0.0      0     0 ?        I<   06:26   0:00 [blkcg_punt_bio]
+root          39  0.0  0.0      0     0 ?        I<   06:26   0:00 [tpm_dev_wq]
+root          41  0.0  0.0      0     0 ?        I<   06:26   0:00 [kworker/1:1H-kblockd]
+root          42  0.1  0.0      0     0 ?        S    06:26   0:04 [kswapd0]
+root          48  0.0  0.0      0     0 ?        I<   06:26   0:00 [kthrotld]
+root          54  0.0  0.0      0     0 ?        I<   06:26   0:00 [acpi_thermal_pm]
+root          55  0.0  0.0      0     0 ?        I<   06:26   0:00 [nvme-wq]
+root          56  0.0  0.0      0     0 ?        I<   06:26   0:00 [nvme-reset-wq]
+root          57  0.0  0.0      0     0 ?        I<   06:26   0:00 [nvme-delete-wq]
+root          58  0.0  0.0      0     0 ?        I<   06:26   0:00 [mld]
+root          59  0.0  0.0      0     0 ?        I<   06:26   0:00 [kworker/0:1H-kblockd]
+root          60  0.0  0.0      0     0 ?        I<   06:26   0:00 [ipv6_addrconf]
+root          65  0.0  0.0      0     0 ?        I<   06:26   0:00 [kstrp]
+root          69  0.0  0.0      0     0 ?        I<   06:26   0:00 [kworker/u5:0]
+root         127  0.0  0.0      0     0 ?        S    06:26   0:00 [scsi_eh_0]
+root         128  0.0  0.0      0     0 ?        I<   06:26   0:00 [scsi_tmf_0]
+root         162  0.0  0.0      0     0 ?        S    06:26   0:00 [jbd2/sda1-8]
+root         163  0.0  0.0      0     0 ?        I<   06:26   0:00 [ext4-rsv-conver]
+root         174  0.0  0.0      0     0 ?        S    06:26   0:00 [hwrng]
+root         206  0.0  0.9  49564  9388 ?        Ss   06:26   0:00 /lib/systemd/systemd-journald
+root         222  0.1  0.0      0     0 ?        I    06:26   0:04 [kworker/0:3-events]
+root         231  0.0  0.3  24364  3160 ?        Ss   06:26   0:00 /lib/systemd/systemd-udevd
+systemd+     241  0.0  0.5  18472  5020 ?        Ss   06:26   0:00 /lib/systemd/systemd-networkd
+root         252  0.0  0.0      0     0 ?        I<   06:26   0:00 [cryptd]
+systemd+     349  0.0  0.8  20644  8168 ?        Ss   06:26   0:00 /lib/systemd/systemd-resolved
+systemd+     350  0.0  0.3  90104  3584 ?        Ssl  06:26   0:00 /lib/systemd/systemd-timesyncd
+root         358  0.0  0.5   8268  5944 ?        Ss   06:26   0:00 /usr/sbin/haveged --Foreground --verbose=1
+root         364  0.0  0.2   4028  2076 ?        Ss   06:26   0:00 /usr/sbin/cron -f
+message+     365  0.0  0.3   8076  3364 ?        Ss   06:26   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         369  0.0  2.7 1288792 27040 ?       Ssl  06:26   0:02 /usr/bin/google_osconfig_agent
+root         372  0.0  1.4  30992 14060 ?        Ss   06:26   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         376  0.0  0.4  16888  4724 ?        Ss   06:26   0:00 /lib/systemd/systemd-logind
+Debian-+     950  0.0  1.4  30072 14640 ?        Ss   06:26   0:00 /usr/sbin/exim4 -bd -q30m
+root         951  0.0  0.0   2900   704 tty1     Ss+  06:26   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root        1100  0.0  0.0   2944   676 ttyS0    Ss+  06:26   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+root        1113  0.0  1.6 108108 16524 ?        Ssl  06:27   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+polkitd     1119  0.0  0.6 308284  6052 ?        Ssl  06:27   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root        1122  0.0  0.4 221800  4552 ?        Ssl  06:27   0:00 /usr/sbin/rsyslogd -n -iNONE
+root        1127  0.0  1.8 1343796 18212 ?       Ssl  06:27   0:02 /usr/bin/google_guest_agent_manager
+root        1131  0.0  1.0 1277052 10568 ?       Ssl  06:27   0:00 /usr/bin/google_guest_compat_manager
+root        1155  0.0  2.0 1279316 20096 ?       Sl   06:27   0:01 /usr/lib/google/guest_agent/GuestAgentCorePlugin/core_plugin --protocol=unix --address=/run/google-guest-agent/plugin-connections/GuestAgentCorePlugin_20260511.00.sock --errorlogfile=/var/lib/google-guest-agent/11285583649619357/agent_state/plugins/GuestAgentCorePlugin/plugin.log
+root        1170  0.0  1.3 1276388 13508 ?       Sl   06:27   0:00 /usr/lib/google/guest_agent/GuestTelemetryExtension/guest_telemetry --protocol=unix --address=/run/google-guest-agent/plugin-connections/GuestTelemetryExtension_1.0.sock --errorlogfile=/var/lib/google-guest-agent/11285583649619357/agent_state/plugins/GuestTelemetryExtension/plugin.log
+root        1334  0.0  0.7  15452  7320 ?        Ss   06:27   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        1463  0.0  1.8 1942800 18648 ?       Ssl  06:28   0:02 /opt/google-cloud-ops-agent/libexec/google_cloud_ops_agent_wrapper -config_path /etc/google-cloud-ops-agent/config.yaml -log_path /var/log/google-cloud-ops-agent/subagents/logging-module.log /opt/google-cloud-ops-agent/subagents/fluent-bit/bin/fluent-bit --config /run/google-cloud-ops-agent-fluent-bit/fluent_bit_main.conf --parser /run/google-cloud-ops-agent-fluent-bit/fluent_bit_parser.conf --storage_path /var/lib/google-cloud-ops-agent/fluent-bit/buffers
+root        1464  1.6  7.5 1999384 75196 ?       Ssl  06:28   0:48 /opt/google-cloud-ops-agent/subagents/opentelemetry-collector/otelopscol --config=/run/google-cloud-ops-agent-opentelemetry-collector/otel.yaml
+root        1500  0.3  1.5 852968 15812 ?        Sl   06:28   0:10 /opt/google-cloud-ops-agent/subagents/fluent-bit/bin/fluent-bit --config /run/google-cloud-ops-agent-fluent-bit/fluent_bit_main.conf --parser /run/google-cloud-ops-agent-fluent-bit/fluent_bit_parser.conf --storage_path /var/lib/google-cloud-ops-agent/fluent-bit/buffers
+mordeku+    1600  0.0  0.5  18784  5396 ?        Ss   06:29   0:00 /lib/systemd/systemd --user
+mordeku+    1601  0.0  0.3 168992  3436 ?        S    06:29   0:00 (sd-pam)
+root        2665  0.0  0.0      0     0 ?        I    06:42   0:00 [kworker/1:0-events]
+root        3263  0.0  0.0      0     0 ?        I    06:52   0:00 [kworker/u4:1-events_unbound]
+root        3281  0.0  0.9  17700  9560 ?        Ss   06:52   0:00 sshd: mordekunal3 [priv]
+mordeku+    3288  0.0  0.6  17860  6320 ?        S    06:52   0:00 sshd: mordekunal3@pts/1
+mordeku+    3289  0.0  0.4   5596  4692 pts/1    Ss+  06:52   0:00 -bash
+root        3878  0.0  0.0      0     0 ?        I    07:02   0:00 [kworker/1:2]
+root        3879  0.0  0.0      0     0 ?        I    07:02   0:00 [kworker/u4:0-flush-8:0]
+root        3950  0.0  0.0      0     0 ?        I    07:06   0:00 [kworker/0:1-events]
+root        4479  0.0  0.0      0     0 ?        I    07:12   0:00 [kworker/u4:2-flush-8:0]
+root        4516  0.0  1.0  17704 10228 ?        Ss   07:13   0:00 sshd: mordekunal3 [priv]
+mordeku+    4523  0.0  0.6  17864  6436 ?        S    07:13   0:00 sshd: mordekunal3@pts/0
+mordeku+    4524  0.0  0.4   5596  4808 pts/0    Ss   07:13   0:00 -bash
+root        5027  0.0  0.0      0     0 ?        I    07:16   0:00 [kworker/u4:3-events_unbound]
+root        5028  0.0  0.0      0     0 ?        I    07:16   0:00 [kworker/0:0-events]
+mordeku+    5083  100  0.4   8488  4096 pts/0    R+   07:18   0:00 ps aux
